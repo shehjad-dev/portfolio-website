@@ -5,7 +5,7 @@ import MyBlogs from "./_components/MyBlogs";
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  // metadataBase: new URL("")
+  metadataBase: new URL('https://threepointdev.com'),
   title: 'Full Stack SDE - Shehjad | saas | user experience(UX)',
   description: 'A software engineer with years of experience in fast paced environments with proven growth. Obsessed with user experience.',
   alternates: {
@@ -14,7 +14,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Full Stack SDE - Shehjad | saas | user experience(UX)',
     description: 'A software engineer with years of experience in fast paced environments with proven growth. Obsessed with user experience.',
-    // images: 
   }
 }
 
