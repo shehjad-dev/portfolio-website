@@ -15,7 +15,7 @@ export const Meteors = ({
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 2 }}
     >
       {meteors.map((el, idx) => {
         const meteorCount = number || 20;
@@ -32,7 +32,7 @@ export const Meteors = ({
               className,
             )}
             style={{
-              top: "50px", // Start above the container
+              top: "-90px", // Start above the container
               left: position + "px",
               animationDelay: Math.random() * 5 + "s", // Random delay between 0-5s
               animationDuration: Math.floor(Math.random() * (10 - 5) + 5) + "s", // Keep some randomness in duration

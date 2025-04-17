@@ -82,7 +82,7 @@ const HeroSection = () => {
         </motion.div>
         <HeroImg ImageSrc={HeroImage} />
       </div>
-    </section>
+    </section >
   );
 };
 
