@@ -34,7 +34,7 @@ const HeroSection = () => {
   return (
     <section className="w-full md:pt-0 pt-5 h-[100vh] md:max-h-[1000px] max-h-fit bg-slate-950">
       <div className="md:w-[1400px] relative mx-auto text-white flex md:flex-row flex-col items-center gap-12 justify-between h-full">
-        <div className='md:block hidden'>
+        <div className='md:block absolute top-0 left-0 hidden'>
           <Meteors number={20} />
         </div>
 
