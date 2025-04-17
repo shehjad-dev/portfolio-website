@@ -3,12 +3,10 @@ import Blog1Img from "@/assets/blog1.png";
 import Blog2Img from "@/assets/blog2.png";
 import Blog3Img from "@/assets/blog3.png";
 import Image from 'next/image'
-import Link from 'next/link'
 import { ExternalLinkIcon } from 'lucide-react'
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion"
 
-type Props = {}
 
 const data = [
   {
@@ -28,7 +26,7 @@ const data = [
   },
 ]
 
-const MyBlogs = (props: Props) => {
+const MyBlogs = () => {
   const gridVariants = {
     hidden: { opacity: 0 },
     visible: {

@@ -8,9 +8,8 @@ import MainLogo from '@/assets/logoMine.png';
 import { MenuIcon, XIcon } from 'lucide-react';
 import { redirect } from 'next/navigation';
 
-type Props = {};
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {

@@ -9,9 +9,8 @@ import Project5Thumbnail from "@/assets/project5Thumbnail.png";
 import Image from 'next/image';
 import { ExternalLinkIcon, GithubIcon, GlobeIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
-type Props = {};
 
 const data = [
   {
@@ -54,7 +53,7 @@ const data = [
   },
 ];
 
-const MyProjects = (props: Props) => {
+const MyProjects = () => {
   const gridVariants = {
     hidden: { opacity: 0 },
     visible: {

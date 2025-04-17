@@ -1,6 +1,5 @@
 'use client';
 
-import HeroImage from '@/assets/meSideProfile3.png';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import Image from 'next/image';
 

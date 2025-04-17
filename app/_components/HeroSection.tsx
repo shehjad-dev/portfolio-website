@@ -1,8 +1,6 @@
 "use client";
 
 import HeroImage from '@/assets/meSideProfile3.png';
-import { Button } from '@/components/ui/button';
-import Image from 'next/image';
 import HeroImg from './HeroImg';
 import Link from 'next/link';
 import { HeadsetIcon, MailIcon } from 'lucide-react';
@@ -70,7 +68,7 @@ const HeroSection = () => {
               className="text-base transition-all ease-in duration-75 md:text-lg flex gap-2 items-center justify-center rounded-lg px-4 h-[40px] font-semibold bg-yellow-200 hover:bg-yellow-200 hover:ring-2 ring-yellow-300 mt-4 text-yellow-950 font-mono cursor-pointer"
             >
               <HeadsetIcon className="w-6 h-6" />
-              Let's Talk
+              Let&apos;s Talk
             </Link>
             <Link
               href={"mailto:satauskz@gmail.com"}

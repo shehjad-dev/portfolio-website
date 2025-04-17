@@ -4,7 +4,6 @@ import React from 'react'
 import Image from 'next/image'
 import MainLogo from '@/assets/logoMine.png'
 
-type Props = {}
 
 const socialLinks = [
   {
@@ -24,7 +23,7 @@ const socialLinks = [
   },
 ]
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <>
       <div className='py-[100px] border-[1px] border-slate-900 bg-slate-950'>

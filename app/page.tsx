@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./_components/HeroSection";
 import { TimelineContainer } from "./_components/TimelineContainer";
 import MyProjects from "./_components/MyProjects";
