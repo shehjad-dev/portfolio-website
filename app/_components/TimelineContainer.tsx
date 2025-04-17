@@ -201,7 +201,7 @@ export function TimelineContainer() {
     }
   ];
   return (
-    <div id="experience" className="min-h-screen w-full md:py-[60px] py-[120px]">
+    <div id="experience" className="min-h-screen overflow-hidden w-full md:py-[60px] py-[120px]">
       <div className="w-full">
         <Timeline data={data} />
       </div>
