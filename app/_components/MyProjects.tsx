@@ -6,6 +6,9 @@ import Project2Thumbnail from "@/assets/project2Thumbnail.png";
 import Project3Thumbnail from "@/assets/project3Thumbnail.png";
 import Project4Thumbnail from "@/assets/project4Thumbnail.png";
 import Project5Thumbnail from "@/assets/project5Thumbnail.png";
+import Project6Thumbnail from "@/assets/project6Thumbnail.png";
+import Project7Thumbnail from "@/assets/project7Thumbnail.png";
+import Project8Thumbnail from "@/assets/project8Thumbnail.png";
 import Image from 'next/image';
 import { ExternalLinkIcon, GithubIcon, GlobeIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -29,12 +32,36 @@ const data = [
     techStack: ["Next Js", "Nest Js", "Mongo DB"]
   },
   {
+    title: "Coding Question | Code Editor | Test Cases",
+    summary: "A job board that shows jobs across the globe. The highlight is the extensive filter options and newsletter feature to get notified about jobs that the user signed up for.",
+    thumbnail: Project6Thumbnail,
+    githubLink: "https://github.com/shehjad-dev/code-editor",
+    liveLink: "https://code-editor-threepointdev.netlify.app/",
+    techStack: ["React Js", "Vite", "Tailwind"]
+  },
+  {
     title: "Get Unique ID - NPM Package",
     summary: "The one stop solution to get a uniqe id for your use case. Play with it and integrate for your particular use case. Good luck!",
     thumbnail: Project2Thumbnail,
     npmLink: "https://www.npmjs.com/package/get-a-unique-id",
     homepageLink: "https://get-unique-id.netlify.app/",
     techStack: ["Node JS", "npm"]
+  },
+  {
+    title: "Kandban Board",
+    summary: "Basic Kanban board with deadline setting feature.",
+    thumbnail: Project7Thumbnail,
+    githubLink: "https://github.com/shehjad-dev/kanban-board",
+    liveLink: "https://kanban-board-threepointdev.netlify.app/",
+    techStack: ["React Js", "Vite", "Tailwind"]
+  },
+  {
+    title: "Udemy Frontend - Clone | Roadmap Generator",
+    summary: "The clone of Udemy's front end course page. You can find the original page <a href='https://www.udemy.com' target='_blank' rel='noopener noreferrer'>here</a>.",
+    thumbnail: Project8Thumbnail,
+    githubLink: "https://github.com/shehjad-dev/udemy-frontend-clone",
+    liveLink: "https://udemy-clone-shehjad.netlify.app/",
+    techStack: ["HTML", "VANILLA JS", "Tailwind"]
   },
   {
     title: "Youtube Town",
